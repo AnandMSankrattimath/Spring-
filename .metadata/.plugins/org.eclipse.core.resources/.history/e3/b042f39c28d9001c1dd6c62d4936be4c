@@ -1,0 +1,8 @@
+package com.xworkz.propertiesfile.Bean;
+
+public class UserDetailBean {
+
+	private String firstName;
+	private String lastName;
+	
+}

@@ -1,0 +1,20 @@
+package com.xowrkz.dependencyinjection.bean;
+
+public class PCBean {
+
+	private String name;
+	private PowerBean powerBean;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void provideService() {
+
+	}
+
+}

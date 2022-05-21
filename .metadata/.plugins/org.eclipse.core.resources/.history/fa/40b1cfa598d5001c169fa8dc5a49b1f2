@@ -1,0 +1,11 @@
+package com.xworkz.spring_bean;
+
+public class TheatreBean {
+	private String theatreName;
+	private int seatingCapacity;
+	
+	public void watchMovie() {
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.xworkz.spring.tester;
+
+import java.awt.Container;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xworkz.spring.bean.TheatreBean;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+			ApplicationContext container = new ClassPathXmlApplicationContext("spring-config.xml");
+			
+			TheatreBean theatreBean = container.getBean(TheatreBean.class);
+			
+			theatreBean.setTheatreName("Ravi's Show");
+			theatreBean.setSeatingCapacity(1000);
+			theatreBean.showMovie();
+	}
+
+}

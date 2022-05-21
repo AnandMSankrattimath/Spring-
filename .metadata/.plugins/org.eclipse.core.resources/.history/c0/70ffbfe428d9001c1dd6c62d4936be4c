@@ -1,0 +1,5 @@
+package com.xworkz.propertiesfile.Bean;
+
+public class UserBean {
+
+}

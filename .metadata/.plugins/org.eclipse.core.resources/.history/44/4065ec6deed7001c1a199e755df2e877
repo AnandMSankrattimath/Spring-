@@ -1,0 +1,8 @@
+package com.xowrkz.dependencyinjection.bean;
+
+public class PCBean {
+	
+	private String name;
+	
+
+}

@@ -1,0 +1,5 @@
+package com.xowrkz.dependencyinjection.tester;
+
+public class MainClass {
+
+}

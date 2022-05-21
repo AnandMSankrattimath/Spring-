@@ -1,0 +1,10 @@
+package com.xowrkz.dependencyinjection.bean;
+
+public class PowerBean {
+	private int units;
+	
+	public void provideElecricity() {
+		
+	}
+
+}
